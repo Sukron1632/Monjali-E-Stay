@@ -1,0 +1,6 @@
+id_laporanpenyewa,id_kamar,id_user,nama_penyewa,username,password,alamat,status,no_hp,nama_orangtua,no_orangtua
+16,8,23,"budi doremi",budi,202cb962ac59075b964b,"Rt 04, Rw 25, Bercak, Jogotirto, Berbah, Sleman, D",pelajar,2147483647,agus,2345678
+17,2,3,"budi doremi",budi,202cb962ac59075b964b,"Rt 04, Rw 25, Bercak, Jogotirto, Berbah, Sleman, D",pelajar,2147483647,agus,2345678
+18,1,3,"budi doremi",budi,202cb962ac59075b964b,"Rt 04, Rw 25, Bercak, Jogotirto, Berbah, Sleman, D",pelajar,2147483647,agus,2345678
+19,2,24,zola,Zola,202cb962ac59075b964b,Jogja,Pelajar,2147483647,Ayah,82188
+20,3,25,DONE,Dimas,202cb962ac59075b964b,"Rt 04, Rw 25, Bercak, Jogotirto, Berbah, Sleman, D",Pelajar,2147483647,Budi,2345678

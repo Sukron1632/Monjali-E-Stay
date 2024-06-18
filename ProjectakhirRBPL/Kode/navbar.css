@@ -1,0 +1,281 @@
+body, html {
+	margin: 0;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+}
+
+a {
+	outline: none;
+}
+
+.navbar-container {
+	text-align: center;
+	background-color: #009688;
+	box-shadow: 0px -20px 5px 20px #333333;
+	padding: 10px;
+	font-size: 0;
+}
+
+.navbar-container ul {
+	margin-left: 1000px;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-container ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+    font-size: 18px;
+	transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline {
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-container ul li:hover .underline {
+	background-color: white;
+	width: 100%;
+}
+
+.navbar-container ul li:hover a {
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.bg-text {
+    color: rgb(23, 23, 23);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  body, html {
+	margin: 0;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+}
+
+a {
+	outline: none;
+}
+
+.navbar-container {
+	text-align: center;
+	background-color: #009688;
+	box-shadow: 0px -20px 5px 20px #333333;
+	padding: 10px;
+	font-size: 0;
+}
+
+.navbar-container ul {
+	margin-left: 1000px;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-container ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+    font-size: 18px;
+	transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline {
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-container ul li:hover .underline {
+	background-color: white;
+	width: 100%;
+}
+
+
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.bg-text {
+    color: rgb(104, 103, 103);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .btn-warning{
+	color:#FFBF73;
+
+  }
+  .navbar-title{
+	background-color: #333; 
+    color: white; 
+    display: flex;
+	margin-left: 500px;
+    height: 50px; 
+    top: 0; 
+    width: 100%; 
+  }
+  .outer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	transform: translateY(-100px)
+  }
+  .outer-container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin-bottom: 0;
+	transform: translateY(-600px)
+	
+  }
+  .inner-container {
+	background-color: #009688;
+	width: 90%;
+	padding: 20px;
+	margin-bottom: 0;
+
+  }
+  
+  .image {
+	float: left;
+	margin-right: 20px;
+  }
+  
+  .gambar-kecil {
+  }
+  
+  .description {
+	margin-bottom: 50px; /* Berikan margin bottom yang cukup untuk memberikan ruang pada tombol */
+  }
+  
+  .actions {
+	position: absolute;
+	bottom: 0;
+  }
+  .tombol {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #FFBF73;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 300px; /* Mengatur lebar tombol menjadi 150px */
+  	margin: 0 5px; /* Mengatur jarak antara tombol */
+  }
+
+  
+  .nested-item {
+	width: 100px; /* Mengatur lebar kontainer kecil */
+	height: 50px; /* Mengatur tinggi kontainer kecil */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc; /* Mengatur border untuk kontainer kecil */
+  }
+  
+  .nested-actions {
+	display: flex;
+	justify-content: space-between;
+	width: 200px; /* Mengatur lebar untuk kedua tombol */
+	margin-top: 10px; /* Mengatur jarak antara teks dengan tombol-tombol */
+  }
+  
+  .nested-corner {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 10px; /* Mengatur margin dari pojok kanan bawah */
+  }
+  
+  .bot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #009688;
+    width: 100%;
+  }
+
+  .left-container,
+  .right-container {
+    flex: 1;
+    text-align: center;
+  }
+
+  .left-container button,
+  .right-container button {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .corner-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  

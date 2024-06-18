@@ -1,0 +1,75 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cardkonten{
+    background-color: #83D3D3;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 1510px;
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 30px
+}
+
+.judul{
+    background-color: #83D3D3;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 1510px;
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+.content1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login{
+    display: contents;
+}
+.link {
+    text-decoration: none;
+    margin-left: 100px;
+    background-color: rgb(64, 64, 206);
+    color: white;
+    border-radius: 5px;
+}
+body { font-family: Calibri, Helvetica, Arial, sans-serif; 
+}
+
+.bg-image {
+    background-image: url("asset/logo.jpg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gambarcover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.loginform{
+    margin-top: 40px;
+    text-align: center;
+}
+

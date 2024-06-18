@@ -1,0 +1,5 @@
+id_pemasukan,id_user,id_kamar,nama_penyewa,tanggal,total_bayar
+27,3,1,"budi doremi",30-11--0001,1500000
+27,3,1,"budi doremi",30-11--0001,1500000
+28,24,2,zola,30-11--0001,1000000
+29,25,3,DONE,30-11--0001,500000
